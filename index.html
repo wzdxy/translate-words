@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--<form action="http://dict-co.iciba.com/api/dictionary.php">
-        <input type="text" name="w">
-        <input type="text" name="key" value="60351920E1FA715DE11FBF918DEDF4FB">
-        <input type="submit">
-    </form>-->
-    <form action="search.php" method="post">
-        <input type="text" name="airticle-texts">
-        <input type="submit">
+    <form action="search.php" method="post" id="form">
+        <input type="text" name="airticle-texts" id="text">
+        <!--<input type="submit">-->
     </form>
+    <button id="btn">提交按钮</button>
+    <div id="inner"></div>
+    <script src='main.js'></script>
+    <script src='jquery-2.2.4.js'></script>
 </body>
 </html>
